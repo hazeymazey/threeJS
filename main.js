@@ -33,8 +33,7 @@ container.addEventListener('mousemove', (e) => {
 });
 
 var textureloader = new THREE.TextureLoader();
-textureloader.crossOrigin = "Anonymous"//This is to load from URL. Unnecessary for local files
-const texture = textureloader.load('https://i.redd.it/orl0rfzw0vz31.jpg');
+const texture = textureloader.load('orl0rfzw0vz31.jpg');
 const material = new THREE.MeshBasicMaterial( { map: texture });
 
 const geometry = new THREE.BoxGeometry(8, 6);
