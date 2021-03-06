@@ -14,6 +14,7 @@ body {
     margin: 0 auto;
 }
 .scene {
+    margin-left: 50%;
     width: 600px;
     height: 450px;
 }
