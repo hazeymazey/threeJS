@@ -25,7 +25,7 @@ window.addEventListener('resize', () => {
 })
 
 //mouse move
-scene.addEventListener('mousemove', (e) => {
+container.addEventListener('mousemove', (e) => {
     // mousemove / touchmove
     uMouse.x = e.offsetX / container.clientWidth ;
     uMouse.y = 1 - e.offsetY / container.clientHeight;
