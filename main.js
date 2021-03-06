@@ -25,10 +25,10 @@ window.addEventListener('resize', () => {
 })
 
 //mouse move
-document.addEventListener('mousemove', (e) => {
+container.addEventListener('mousemove', (e) => {
     // mousemove / touchmove
-    uMouse.x = e.clientX / container.clientWidth ;
-    uMouse.y = 1. - ( e.clientY/ container.clientHeight );
+    uMouse.x = e.offsetX / container.clientWidth ;
+    uMouse.y = 1. - ( e.offsetY / container.clientHeight );
 
 });
 
